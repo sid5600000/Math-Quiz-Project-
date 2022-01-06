@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<script src="game_page.js"></script>
+
+</head>
+
+<body onload="label_update()">
+
+	
+
+<h3 id="player1_name_label"></h3><span id="player1_score_label"></span>
+<br>
+<h3 id="player2_name_label"></h3><span id="player2_score_label"></span>
+
+
+<div class="container">
+	<center>
+			<h2 style="color: white;">THE MATH QUIZ GAME</h2>
+
+		
+		<br>
+
+		<h3 id="question_turn_label"></h1>
+		<h3 id="answer_turn_label"></h1>
+		
+		<br>
+
+		<div id="output">
+
+            
+			
+        </div>
+		
+
+		<br>
+
+		<h5>Number 1</h5>
+		<input id="number1" type="number" class="form-control" placeholder="Type your first number">
+
+		<h5>Number 2</h5>
+		<input id="number2" type="number"  class="form-control" placeholder="Type your second number">
+
+		<br>
+
+		<button id="send_button" type="button" class="btn btn-info" onclick="send()">Send</button>
+
+
+
+		</center>
+
+</div>
+
+</body>
+
+</html>
+
+
+

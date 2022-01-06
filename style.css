@@ -1,0 +1,60 @@
+body
+{
+	background-color:turquoise;
+}
+
+.login_div1 , .login_div2
+{
+		background:darkturquoise;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+
+#heading{
+    color:black;
+    font: size 41px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#player1_score_label , #player2_score_label{
+	font-size:35px;
+}
+
+h2{
+	font: size 45px;
+	font-family:fantasy;
+}
+h3{
+	font: size 45px;
+	font-family: fantasy;
+}
+
+#player1_name_label , #player2_name_label{
+	display:inline-block;
+	margin-left:20px;
+}
